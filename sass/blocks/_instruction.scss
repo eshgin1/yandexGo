@@ -1,0 +1,65 @@
+.instruction{
+    margin-top: -50px;
+    padding: 128px 0;
+    background: $yellow-color;
+    border-radius: 56px 56px 0 0;
+    &__paragraphs{
+        margin-top: -100px;
+        padding: 128px 50px 178px 70px;
+        background: #fff;
+        border-radius: 56px;
+        &-blocks{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            
+        }
+        &-item{
+            width: 362px;
+        }
+        &-text{
+            margin-bottom: 16px;
+        }
+    }
+    &__img{
+        margin-top: 74px;
+        margin-bottom: 24px;
+    }
+    &__support{
+        margin-top: -133px;
+        margin-left: 200px;
+        padding: 83px;
+        width: 640px;
+        border-radius: 56px;
+        background: #00CA50;
+    }
+    &__video{
+        &-wrap{
+            // width: 700px;
+            overflow: hidden;
+        }
+        &-track{
+            display: flex;
+            border-radius: 56px;
+            // width: 100%;
+            transition: 0.2s;
+        }
+        &-player{
+            width: 100%;
+        }
+        &-circles{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        &-circle{
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin-left: 5px;
+            background: #000;
+            cursor: pointer;
+        }
+        
+    }
+}

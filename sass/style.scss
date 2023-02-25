@@ -1,0 +1,32 @@
+@import 'base/variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 920px
+}
+
+body{
+    background: $yellow-color;
+}
+
+@import 'blocks/btn';
+@import 'blocks/text';
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/scooter';
+@import 'blocks/rent';
+@import 'blocks/tariff';
+@import 'blocks/subscription';
+@import 'blocks/instruction';
+@import 'blocks/location';
+@import 'blocks/footer';
+@import 'blocks/hamburger';
+@import 'blocks/media';

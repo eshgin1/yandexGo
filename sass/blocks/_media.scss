@@ -1,0 +1,444 @@
+@media(max-width: 1200px){
+    .container{
+        max-width: 960px;
+    }
+    .header{
+        &__wrapper{
+            max-width: 900px;
+        }
+        &__logo{
+            width: 140px;
+            svg{
+                width: 100%;
+            }
+        }
+        &__list{
+            &-item{
+                text-align: center;
+            }
+        }
+    }
+    .rent{
+        &__instruction{
+            &-video{
+                width: 400px;
+                video{
+                    width: 100%;
+                }
+            }
+        }
+        &__img{
+            width: 300px;
+            svg{
+                width: 100%;
+            }
+        }
+    }
+    .tariff{
+        &__block{
+
+        }
+        &__item{
+            height: 80%;
+        }
+        &__item1{
+            height: 470px;
+        }
+        &__item2{
+            height: 470px;
+        }
+        &__item3{
+            margin-top: -40px;
+            height: 470px;
+        }
+        &__item4{
+            margin-top: 40px;
+            height: 470px;
+        }
+    }
+    .subscription{
+        margin-top: 70px;
+        padding: 100px 0;
+        &__img{
+            width: 400px;
+        }
+        &__text{
+            width: 515px;
+        }
+    }
+    .instruction{
+        &__support{
+            margin-left: 147px;
+            width: 615px;
+        }
+    }
+    .footer{
+        &__info{
+            width: 533px;
+        }
+    }
+}
+
+@media(max-width: 992px){
+    .container{
+        max-width: 720px;
+    }
+    .header{
+        &__wrapper{
+            padding: 10px 10px;
+        }
+        &__logo{
+            width: 100px;
+        }
+        &__list-item{
+            a{
+                font-size: 14px;
+            }
+        }
+        &__btn{
+            padding: 9px 33px;
+            font-size: 15px;
+        }
+    }
+    .scooter{
+        &__devider{
+            svg{
+                width: 100%;
+            }
+        }
+        &__title{
+            font-size: 150px;
+            &::after{
+                width: 350px;
+                top: -42px;
+            }
+        }
+        &__text{
+            width: 470px;
+        }
+        &__link{
+            font-size: 48px;
+        }
+    }
+    .rent{
+        &__img{
+            width: 250px;
+        }
+        &__text{
+            font-size: 26px;
+        }
+        &__instruction{
+            &-video{
+                width: 366px;
+            }
+            &-line{
+                left: 48%;
+                bottom: -130px;
+                svg{
+                    width: 250px;
+                }
+            }
+        }
+        &__stages{
+            margin-top: 54px;
+        }
+    }
+    .tariff{
+        &__blocks{
+            grid-template-columns: 470px;
+            justify-content: center;
+        }
+        &__item{
+            margin-top: 30px;
+        }
+        &__item6{
+            display: none;
+        }
+        &__item5{
+            width: 470px;
+            &-text{
+                width: auto;
+            }
+        }
+    }
+    .subscription{
+        &__img{
+            width: 300px;
+        }
+        &__text{
+            font-size: 58px;
+            line-height: 73px;
+        }
+    }
+    .instruction{
+        &__title{
+            text-align: center;
+        }
+        &__video{
+            &-player{
+                width: 100%;
+            }
+        }
+        &__paragraphs{
+            &-blocks{
+                justify-content: center;
+            }
+        }
+        &__support{
+            margin-left: 92px;
+            width: 450px;
+            &-text{
+                font-size: 31px;
+            }
+        }
+    }
+    .location{
+        &__img{
+            width: 700px;
+        }
+    }
+    .footer{
+        padding: 30px 0;
+        &__wrapper{
+            flex-direction: column;
+            align-items: center;
+        }
+        &__company{
+            margin-top: 30px;
+        }
+    }
+}
+
+@media(max-width: 576px){
+    .container{
+        max-width: 300px;
+    }
+    .hamburger{
+        position: absolute;
+        display: block;
+    }
+    .header{
+        background: #0000;
+        &__wrapper{
+            position: relative;
+            // left: -100%;
+        }
+        &__group{
+            padding-left: 10px;
+            flex-direction: column;
+            align-items:flex-start;
+            height: 350px;
+            background: rgba(255, 255, 255, 0.5);
+        }
+        &__logo{
+            display: none;
+        }
+        &__list{
+            flex-direction: column;
+            align-items: flex-start;
+            &-item{
+                margin-top: 10px;
+                margin-left: 0;
+            }
+        }
+    }
+    .scooter{
+        &__title{
+            font-size: 78px;
+            &::after{
+                width: 111px;
+                top: 12px;
+                background-size: 100% auto;
+            }
+        }
+        &__text{
+            margin-top: 30px;
+            width: 300px;
+            font-size: 20px;
+        }
+        &__btn{
+            padding: 12px 36px;
+            font-size: 15px;
+        }
+        &__link{
+            font-size: 30px;
+        }
+    }
+    .rent{
+        padding: 20px;
+        &__title{
+            text-align: center;
+            font-size: 45px;
+        }
+        &__text{
+            font-size: 24px;
+        }
+        &__instruction{
+            margin-top: 45px;
+            flex-direction: column;
+            &-text{
+                width: 300px;
+            }
+            &-line{
+                display: none;
+            }
+            &-video{
+                margin-top: 30px;
+                width: 250px;
+            }
+        }
+    }
+    .tariff{
+        &__text{
+            padding: 32px 40px;
+            font-size: 30px;
+        }
+        &__blocks{
+            grid-template-columns: 300px;
+        }
+        &__item{
+            padding: 25px 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &-text{
+                text-align: center;
+            }
+        }
+        &__item5{
+            width: 300px;
+            padding: 25px 30px;
+            &-text{
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        &__item6{
+            display: none;
+        }
+    }
+    .subscription{
+        margin-top: 40px;
+        padding: 60px 0;
+        &__title{
+            flex-direction: column;
+            align-items:center;
+        }
+        &__subtitle{
+            width: 300px;
+            h1{
+                text-align: center;
+                font-size: 18px;
+            }
+        }
+        &__text{
+            text-align: center;
+            max-width: 300px;
+            font-size: 33px;
+            line-height: 37px;
+        }
+        &__img{
+            margin-top: 15px;
+            width: 220px;
+        }
+        &__bonus{
+            margin-top: 35px;
+            flex-direction: column;
+            &-item{
+                width: 300px;
+            }
+            &-text{
+                margin-top: 20px;
+                font-size: 25px;
+                &_fz22px{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .instruction{
+        margin-top: 0;
+        padding: 40px 0;
+        &__paragraphs{
+            margin-top: 50px;
+            padding: 80px 35px;
+            &-item{
+                width: 300px;
+            }
+            &-text{
+                font-size: 22px;
+            }
+        }
+        &__img{
+            margin-top: 45px;
+            width: 70px;
+        }
+        &__title{
+            font-size: 30px;
+        }
+        &__support{
+            margin-top: -70px;
+            margin-left: 40px;
+            padding: 30px;
+            width: 180px;
+            h1{
+                font-size: 15px;
+            }
+        }
+    }
+    .location{
+        padding: 70px 0 30px 0;
+        &__title{
+            font-size: 40px;
+            text-align: center;
+        }
+        &__text{
+            font-size: 28px;
+        }
+        &__img{
+            width: 100%;
+        }
+        &__app{
+            margin-top: 30px;
+            &::after{
+                display: none;
+            }
+            &::before{
+                display: none;
+            }
+            &-title{
+                width: 300px;
+                font-size: 36px;
+                text-align: center;
+            }
+            &-text{
+                width: 300px;
+                font-size: 27px;
+                text-align: center;
+            }
+            &-qr{
+                padding-bottom: 25px;
+                img{
+                    display: block;
+                    margin: 0 auto;
+                }
+            }
+            &-img{
+                position: relative;
+                margin: 0 auto;
+                width: 230px;
+            }
+        }
+    }
+    .footer{
+        padding: 30px 20px;
+        &__info{
+            width: 300px;
+            text-align: center;
+        }
+        &__company{
+            text-align: center;
+        }
+    }
+}

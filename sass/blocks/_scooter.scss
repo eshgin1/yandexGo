@@ -1,0 +1,50 @@
+.scooter{
+    padding-top: 150px;
+    &__title{
+        position: relative;
+        line-height: 1;
+        color: #fff;
+        font-size: 181px;
+        &::after{
+            content: "";
+            width: 466px;
+            height: 568px;
+            display: block;
+            background-image: url(https://avatars.mds.yandex.net/get-lpc/1520633/41aaef39-0338-4116-b5af-1e91484de3ac/orig);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: top left;
+            position: absolute;
+            top: -74px;
+            right: 0;
+        }
+    }
+    &__text{
+        width: 548px;
+    }
+    &__btn{
+        margin-top: 32px;
+        &:hover{
+            opacity: 0.95;
+        }
+    }
+    &__block{
+        position: relative;
+        margin-top: 72px;
+    }
+    &__link{
+        font-size: 64px;
+        font-weight: 900;
+        color: #fff;
+        text-decoration: underline;
+    }
+    &__lines{
+        position: absolute;
+        top: -40px;
+        right: 0;
+    }
+    &__devider{
+        margin-top: 20px;
+    }
+
+}

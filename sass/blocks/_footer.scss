@@ -1,0 +1,17 @@
+.footer{
+    padding: 56px 0;
+    background: #fff;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__info{
+        width: 600px;
+        font-size: 13px;
+        color: $black-color;
+        a{
+            text-decoration: underline;
+            color: $black-color;
+        }
+    }
+}

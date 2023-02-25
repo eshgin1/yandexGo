@@ -1,0 +1,67 @@
+.location{
+    padding-top: 128px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+    border-radius: 56px 56px 0 0;
+    &__text{
+        margin-top: 32px;
+    }
+    &__img{
+        margin-top: 72px;
+        width: 920px;
+        img{
+            width: 100%;
+            border-radius: 56px;
+        }
+    }
+    &__app{
+        position: relative;
+        margin-top: 100px;
+        &-title{
+            width: 455px;
+        }
+        &-text{
+            margin-top: 32px;
+            width: 455px;
+        }
+        &-qr{
+            margin-top: 32px;
+            padding-bottom: 150px;
+        }
+        &-img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 10;
+
+            width: 362px;
+            img{
+                width: 100%;
+            }
+        }
+        &::before{
+            content: "";
+            display: block;
+            width: 548px;
+            height: 183px;
+            border-radius: 56px 56px 0 0;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            background-color: $black-color;
+            z-index: 1;        
+        }
+        &::after{
+            content: "";
+            display: block;
+            width: 100%;
+            height: 108px;
+            border-radius: 56px 56px 0 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: $yellow-color;
+            z-index: 2;
+        }
+    }
+}

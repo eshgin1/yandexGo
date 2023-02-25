@@ -1,0 +1,15 @@
+.text{
+    font-size: 36px;
+    font-weight: 600;
+    &_white{
+        font-size: 40px;
+        color: #fff;
+    }
+    &_fz22px{
+        font-size: 22px;
+        &_white{
+            color:#fff;
+            
+        }
+    }
+}
